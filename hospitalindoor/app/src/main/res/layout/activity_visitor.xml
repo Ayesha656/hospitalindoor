@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".visitor">
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="271dp"
+        android:layout_height="237dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="33dp"
+        android:layout_marginEnd="63dp"
+        android:layout_marginBottom="461dp"
+        android:src="@drawable/logo" />
+
+    <EditText
+        android:id="@+id/tknumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="91dp"
+        android:layout_marginEnd="110dp"
+        android:ems="10"
+        android:hint="Enter token number"
+        android:inputType="number"
+        android:minHeight="48dp"
+        android:textAlignment="center" />
+
+    <Button
+        android:id="@+id/verifytoken"
+        android:layout_width="261dp"
+        android:layout_height="78dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="80dp"
+        android:layout_marginEnd="70dp"
+        android:layout_marginBottom="238dp"
+        android:background="@drawable/buttonshape"
+        android:fontFamily="@font/opensansextrabold"
+        android:text="View Map"
+        android:textColor="@color/white"
+        android:textSize="24dp" />
+</RelativeLayout>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".adminshiftappointment">
+
+    <CalendarView
+        android:id="@+id/calendar"
+        android:layout_width="311dp"
+        android:layout_height="252dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="194dp" />
+
+    <TextView
+        android:id="@+id/tex"
+        android:layout_width="105dp"
+        android:layout_height="57dp"
+        android:layout_above="@+id/calendar"
+        android:layout_alignParentStart="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="159dp"
+        android:layout_marginBottom="100dp"></TextView>
+
+    <Button
+        android:id="@+id/confirm_shift"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="168dp"
+        android:layout_marginEnd="155dp"
+        android:layout_marginBottom="546dp"
+        android:text="confirm" />
+
+
+</RelativeLayout>

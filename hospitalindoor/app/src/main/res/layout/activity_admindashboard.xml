@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".admindashboard">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="SpeakableTextPresentCheck">
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:columnCount="1"
+            android:rowCount="6">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/map"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_margin="10dp"
+                android:layout_marginLeft="20dp"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="15dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/map"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/opensanssemibold"
+                        android:gravity="center_horizontal"
+                        android:text="Indoor Map"
+                        android:textAlignment="center"
+                        android:textColor="@color/white"
+                        android:textSize="25dp"
+                        android:textStyle="bold"></TextView>
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/appointmnent6"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_margin="10dp"
+                android:layout_marginLeft="20dp"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="15dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/appointments"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/opensanssemibold"
+                        android:gravity="center_horizontal"
+                        android:text="Appointmnet"
+                        android:textAlignment="center"
+                        android:textColor="@color/white"
+                        android:textSize="25dp"
+                        android:textStyle="bold"></TextView>
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/appointmnent7"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_margin="10dp"
+                android:layout_marginLeft="20dp"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="15dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/appointments"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/opensanssemibold"
+                        android:gravity="center_horizontal"
+                        android:text="Appointment Confirmation"
+                        android:textAlignment="center"
+                        android:textColor="@color/white"
+                        android:textSize="25dp"
+                        android:textStyle="bold"></TextView>
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/staff_register"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_margin="10dp"
+                android:layout_marginLeft="20dp"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="15dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/map"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/opensanssemibold"
+                        android:gravity="center_horizontal"
+                        android:text="Register Doctor"
+                        android:textAlignment="center"
+                        android:textColor="@color/white"
+                        android:textSize="25dp"
+                        android:textStyle="bold"></TextView>
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/staff_remove"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_margin="10dp"
+                android:layout_marginLeft="20dp"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="15dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/map"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/opensanssemibold"
+                        android:gravity="center_horizontal"
+                        android:text="Remove Doctor"
+                        android:textAlignment="center"
+                        android:textColor="@color/white"
+                        android:textSize="25dp"
+                        android:textStyle="bold"></TextView>
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:id="@+id/helpline2"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_margin="10dp"
+                android:layout_marginLeft="20dp"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="15dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/helpline"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/opensanssemibold"
+                        android:gravity="center_horizontal"
+                        android:text="Helpline"
+                        android:textAlignment="center"
+                        android:textColor="@color/white"
+                        android:textSize="25dp"
+                        android:textStyle="bold"></TextView>
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+        </GridLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

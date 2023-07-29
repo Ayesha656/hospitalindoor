@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1016136801193",
+    "project_id": "hospitalindoor-44a2c",
+    "storage_bucket": "hospitalindoor-44a2c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1016136801193:android:cade807a5b8843dd3082b8",
+        "android_client_info": {
+          "package_name": "com.example.hospitalindoor"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1016136801193-se1gpimm6j98toe7eqv275uiha5gj5cq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBUxBMQEtTzMGsNDw8DqLeaed9Tmgli2y4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1016136801193-se1gpimm6j98toe7eqv275uiha5gj5cq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

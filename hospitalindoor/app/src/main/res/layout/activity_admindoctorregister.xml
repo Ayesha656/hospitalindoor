@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/blue"
+    tools:context=".admindoctorregister">
+
+    <RelativeLayout
+        android:layout_width="403dp"
+        android:layout_height="670dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="29dp"
+        android:background="@drawable/shape"
+        android:padding="24dp">
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="5dp"
+            android:orientation="vertical"
+            android:padding="24dp">
+
+            <EditText
+                android:id="@+id/admin_name"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_weight="1"
+                android:drawableLeft="@drawable/user"
+                android:drawablePadding="15dp"
+                android:ems="10"
+                android:hint="Username"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/admin_email"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_weight="0.5"
+                android:drawableLeft="@drawable/email"
+                android:drawablePadding="15dp"
+                android:ems="10"
+                android:hint="Email"
+
+
+                android:inputType="textEmailAddress" />
+
+            <EditText
+                android:id="@+id/admin_password"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_weight="0.5"
+                android:drawableLeft="@drawable/padlock"
+                android:drawablePadding="15dp"
+                android:ems="10"
+                android:hint="Password"
+                android:inputType="textPassword" />
+
+
+            <EditText
+                android:id="@+id/admin_cnic"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_weight="0.5"
+                android:drawableLeft="@drawable/creditcard"
+                android:drawablePadding="15dp"
+                android:ems="10"
+                android:hint="cnic"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/admin_phone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:drawableLeft="@drawable/phone"
+                android:drawablePadding="15dp"
+                android:ems="10"
+                android:hint="Phone"
+                android:inputType="number"
+                android:minHeight="48dp" />
+
+            <EditText
+                android:id="@+id/admin_salary"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_weight="0.5"
+                android:drawableLeft="@drawable/ic_baseline_attach_money_24"
+                android:drawablePadding="15dp"
+                android:ems="10"
+                android:hint="salary"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/admin_special"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_weight="0.5"
+                android:drawableLeft="@drawable/padlock"
+                android:drawablePadding="15dp"
+                android:ems="10"
+                android:hint="Specialization"
+                android:inputType="text" />
+
+            <EditText
+                android:id="@+id/admin_day"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_weight="0.5"
+                android:drawableLeft="@drawable/padlock"
+                android:drawablePadding="15dp"
+                android:ems="10"
+                android:hint="Day"
+                android:inputType="text" />
+
+
+            <EditText
+                android:id="@+id/admin_time"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_weight="0.5"
+                android:drawableLeft="@drawable/padlock"
+                android:drawablePadding="15dp"
+                android:ems="10"
+                android:hint="Time"
+                android:inputType="text" />
+
+            <EditText
+                android:id="@+id/admin_exten"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_weight="0.5"
+                android:drawableLeft="@drawable/padlock"
+                android:drawablePadding="15dp"
+                android:ems="10"
+                android:hint="Extension"
+                android:inputType="text" />
+
+            <Button
+                android:id="@+id/signupbtn2"
+                android:layout_width="239dp"
+                android:layout_height="48dp"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:background="@drawable/buttonshape"
+                android:text="Sign Up"
+                android:textColor="@color/white"
+                tools:ignore="TextContrastCheck" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</RelativeLayout>

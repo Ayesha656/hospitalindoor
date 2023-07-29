@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">hospitalindoor</string>
+    <string name="sendotp">We will send a you a one time otp on the given email address</string>
+    <string name="hello_privacyandpolicy_fragment">Thanks for visiting our website or downloading and using our app. As much as we are committed to improving the working lives of our healthcare professionals, we are equally committed to ensuring that we respect your privacy, only collect the information necessary for you to use the platform safely and easily, and that we are transparent in the way we handle your data.</string>
+    <string-array name="planets_array">
+        <item>Mercury</item>
+        <item>Venus</item>
+        <item>Earth</item>
+        <item>Mars</item>
+        <item>Jupiter</item>
+        <item>Saturn</item>
+        <item>Uranus</item>
+        <item>Neptune</item>
+    </string-array>
+
+    <string-array name="mapvalues">
+        <item>OPD</item>
+        <item>EMERGENCY</item>
+        <item>Labortary</item>
+        <item>X-Ray</item>
+    </string-array>
+    <string-array name="doctorname">
+        <item>Dr Faisal</item>
+        <item>Dr Moin</item>
+        <item>DR.YAWER SAEED</item>
+    </string-array>
+
+</resources>

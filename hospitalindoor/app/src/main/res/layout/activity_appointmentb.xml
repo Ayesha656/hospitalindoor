@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".appointmentb"
+    android:background="@color/white"
+    >
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="@font/opensanssemibold"
+        android:gravity="center"
+        android:text="Book Appointment"
+        android:textColor="@color/blue"
+        android:textSize="16dp"
+        android:textStyle="bold"></TextView>
+
+</RelativeLayout>
+    <View
+            android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/Grey"
+        />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="632dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="90dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginBottom="9dp"
+        android:orientation="vertical"
+        android:padding="5dp">
+
+        <EditText
+            android:id="@+id/username2"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:background="@drawable/buttonshape"
+            android:backgroundTint="@color/blue"
+            android:drawableLeft="@drawable/account"
+            android:drawablePadding="16dp"
+            android:ems="10"
+            android:textColor="@color/white"
+            android:fontFamily="@font/opensanssemibold"
+            android:hint="User Name"
+            android:inputType="textPersonName"
+            android:paddingLeft="15dp"
+            android:textColorHint="@color/white"
+            tools:ignore="TouchTargetSizeCheck" />
+
+        <EditText
+            android:id="@+id/doctorname"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginTop="24dp"
+            android:background="@drawable/buttonshape"
+            android:backgroundTint="@color/blue"
+            android:drawableLeft="@drawable/ic_baseline_search_24"
+            android:drawablePadding="16dp"
+            android:ems="10"
+            android:textColor="@color/white"
+            android:fontFamily="@font/opensanssemibold"
+            android:hint="Doctor Name"
+            android:inputType="textPersonName"
+            android:padding="15dp"
+            android:textColorHint="@color/white" />
+
+        <TextView
+            android:id="@+id/txt2"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginTop="24dp"
+            android:background="@drawable/buttonshape"
+            android:backgroundTint="@color/blue"
+            android:drawableLeft="@drawable/ic_baseline_search_24"
+            android:drawablePadding="16dp"
+            android:ems="10"
+            android:fontFamily="@font/opensanssemibold"
+            android:hint="Date"
+            android:inputType="textPersonName"
+            android:padding="15dp"
+            android:textColorHint="@color/white" />
+
+        <CalendarView
+            android:id="@+id/calendar"
+            android:layout_width="wrap_content"
+            android:layout_height="284dp"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="10dp" />
+
+        <Button
+            android:id="@+id/request"
+            android:layout_width="360dp"
+            android:layout_height="64dp"
+            android:background="@color/green"
+            android:fontFamily="@font/opensansextrabold"
+            android:text="Request"
+            android:textColor="@color/white"
+            android:textSize="24dp"
+            android:layout_marginTop="25dp"
+            tools:ignore="TextContrastCheck" />
+    </LinearLayout>
+</RelativeLayout>
